@@ -23,7 +23,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  margin-bottom: 50px;
 }
 .log{
   height: 30px;
@@ -182,4 +181,5 @@ footer{
   flex-direction: row;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
