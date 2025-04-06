@@ -23,6 +23,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
+  margin-bottom: 50px;
+}
+.log{
+  height: 30px;
+  width: 30px;
 }
 .el1 {
   display: flex;
@@ -167,4 +172,14 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.3s;
+}
+.rb{
+  width: 100px;
+  height: 100px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
 }
