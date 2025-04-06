@@ -7,9 +7,10 @@ h5,
 div,
 img {
   margin: 0px;
-} 
+}
 body {
-  background-color: rgb(140, 190, 93);
+  background-image: url(bg.jpg);
+  background-size: cover;
 }
 .GlavTxt {
   text-align: center;
@@ -33,6 +34,31 @@ body {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.el1:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
+}
+.el2:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
+}
+.el3:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
+}
+.el4:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
+}
+.el5:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
+}
+.el6:hover {
+  background-color: rgba(172, 255, 47, 0.527);
+  transition: all 0.3s;
 }
 .cnt {
   display: flex;
@@ -80,6 +106,7 @@ body {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: all 0.3s;
 }
 .el3 {
   display: flex;
@@ -94,8 +121,9 @@ body {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: all 0.3s;
 }
-.el4{
+.el4 {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat";
@@ -108,4 +136,35 @@ body {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.el5 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  border-radius: 30px;
+  border: 4px solid rgb(255, 174, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.el6 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  border-radius: 30px;
+  border: 4px solid rgb(255, 174, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
 }
