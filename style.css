@@ -24,7 +24,7 @@ body {
   flex-wrap: wrap;
   gap: 50px;
 }
-.log{
+.log {
   height: 30px;
   width: 30px;
 }
@@ -40,27 +40,14 @@ body {
   padding-bottom: 10px;
   transition: all 0.3s;
 }
-.el1:hover {
-  background-color: rgba(172, 255, 47, 0.527);
-  transition: all 0.3s;
-}
-.el2:hover {
-  background-color: rgba(172, 255, 47, 0.527);
-  transition: all 0.3s;
-}
-.el3:hover {
-  background-color: rgba(172, 255, 47, 0.527);
-  transition: all 0.3s;
-}
-.el4:hover {
-  background-color: rgba(172, 255, 47, 0.527);
-  transition: all 0.3s;
-}
-.el5:hover {
-  background-color: rgba(172, 255, 47, 0.527);
-  transition: all 0.3s;
-}
-.el6:hover {
+.el1:hover,
+.el2:hover,
+.el3:hover,
+.el4:hover,
+.el5:hover,
+.el6:hover,
+.el7:hover,
+.el8:hover {
   background-color: rgba(172, 255, 47, 0.527);
   transition: all 0.3s;
 }
@@ -157,7 +144,9 @@ body {
   padding-bottom: 10px;
   transition: all 0.3s;
 }
-.el6 {
+.el6,
+.el7,
+.el8 {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat";
@@ -172,11 +161,11 @@ body {
   padding-bottom: 10px;
   transition: all 0.3s;
 }
-.rb{
+.rb {
   width: 100px;
   height: 100px;
 }
-footer{
+footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
